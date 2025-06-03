@@ -1,0 +1,66 @@
+h1 {
+    font-size: 80px;
+    font-family: Impact;
+    background-image: linear-gradient(to right, #4facfe 0%, #a770ef 50%, #fbc2eb 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons i{
+    width: 50px;
+    height: 50px;
+    color: #4facfe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #4facfe;
+    margin: auto;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    margin: 0 20px 20px 0;
+}
+
+.buttons i:hover{
+    background:  #4facfe;
+    color: white;
+}
+
+button#generateBtn {
+    width: 250px;
+    height: 80px;
+    background-color: #4facfe;
+    color: white;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    margin: 0 20px 20px 0;
+}
+
+button:hover{
+    background-image: linear-gradient(to right, #4facfe 0%, #a770ef 50%, #fbc2eb 100%);
+}
+
+p{
+    font-size: 35px;
+}
+
